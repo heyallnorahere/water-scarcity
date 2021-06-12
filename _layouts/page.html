@@ -8,21 +8,23 @@
         <link href="css/stylesheet.css" rel="stylesheet">
     </head>
     <body>
-        <div class="container main-body">
-            <h1>{{ page.title }}</h1>
-            <div class="table-of-contents">
-                <h6>Contents</h6>
-                <ul>
-                    {% for item in page.table-of-contents %}
-                    <li>
-                        <a href="#{{ item.id }}">{{ item.title }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
+        <div class="body-container">
+            <div class="container main-body rounded">
+                <h1>{{ page.title }}</h1>
+                <div class="table-of-contents">
+                    <h6>Contents</h6>
+                    <ul>
+                        {% for item in page.table-of-contents %}
+                        <li>
+                            <a href="#{{ item.id }}">{{ item.title }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="content">{{ content | markdownify }}</div>
             </div>
-            <div class="content">{{ content | markdownify }}</div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-        <footer class="fixed-bottom copyright">&copy; 2021 Lucy Beda</footer>
+        <footer class="copyright">&copy; 2021 Lucy Beda</footer>
     </body>
 </html>

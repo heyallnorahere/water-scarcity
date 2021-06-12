@@ -1,14 +1,21 @@
+.body-container{
+    flex-grow: 1;
+    display: flex;
+}
 .main-body {
-    width: 700px;
+    max-width: 700px;
     padding: 10px;
-    max-width: 100%;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0cc;
+
+    align-self: center;
 }
 h1, h2, p {
     text-align: center;
 }
 .copyright {
     font-size: 0.3cm;
+    background-color: #ffffff33;
+    width: 100%;
 }
 .content {
     padding-top: 0.2cm;
@@ -17,4 +24,15 @@ h1, h2, p {
     border: 1px solid black;
     width: fit-content;
     padding: 5px 25px 5px 5px;
+}
+body {
+    height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
