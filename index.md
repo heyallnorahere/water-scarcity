@@ -12,7 +12,7 @@ table-of-contents:
 ---
 ## What's happening again?
 
-Climate change is increasing the threat of water scarcity worldwide. This terrible for a variety of reasons. To name a few:
+Climate change is increasing the threat of water scarcity worldwide. This is terrible for a variety of reasons. To name a few:
 
 - Traditionally arid areas are increasing in aridity, and deserts are rapidly expanding, so people in arid places are in danger to water scarcity.
 - People at the edges of oceans and small island communites are in danger as well, because of the abundance of salt water but lack of fresh water.
@@ -23,9 +23,9 @@ Normally in the winter, rain falls as snow, and snow packs act as natural reserv
 
 ## How does this affect us, as a species?
 
-- People in no longer arable areas will need to migrate to habitable land
-- There will be mass migrations for climate refugees
-- A famine will occur, as there will not be enough food for the refugees
+- People in no longer arable areas will need to migrate to habitable land.
+- There will be mass migrations for climate refugees.
+- A famine will occur, as there will not be enough food for the refugees.
 
 ## How could we fix this problem?
 
