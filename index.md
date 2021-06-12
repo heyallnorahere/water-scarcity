@@ -1,5 +1,4 @@
 ---
-title: Water scarcity
 layout: page
 table-of-contents:
   - title: What's happening again?
@@ -30,4 +29,4 @@ Normally in the winter, rain falls as snow, and snow packs act as natural reserv
 
 ## How could we fix this problem?
 
-Desalination plants can be build for people with excessive amounts of salt water. We can also build more reservoirs to hold rainfall, as snow packs will not be able to reliably hold rainfall as the climate changes.
+Desalination plants can be built for people with excessive amounts of salt water. We can also build more reservoirs to hold rainfall, as snow packs will not be able to reliably hold rainfall as the climate changes.

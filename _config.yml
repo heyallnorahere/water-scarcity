@@ -1,1 +1,6 @@
 exclude: [ README.md ]
+defaults:
+  - scope:
+      path: ""
+    values:
+      title: "Water scarcity"
